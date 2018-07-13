@@ -1,5 +1,5 @@
 # Assignment Overview: UI Challenge 1
-### DUE: 1:59pm on 
+### DUE: Sunday night, midnight
 
 ## Create a responsive webpage from a provided design comp
 
@@ -15,9 +15,11 @@ This is an independent project, but your are free to collaborate with your class
 
 **GitHub Repository & Project Setup**
 
-- Create a repository called ***ui-challenge-1*** for your work.
-- Submit a link to this repository in the corresponding Canvas assignment when you are finished.
-- Be sure to do your work in a non-master branch.
+- Fork and clone this project.
+- Create a new branch for **ui-challenge-01**.
+- Create a folder in `01/` with your name for your work.
+- Submit a Pull Request to this repository when you are finished.
+- Submit a link to your Pull Request in the corresponding Canvas assignment when you are finished.
 
 
 ***PLAN YOUR WORK AND WORK YOUR PLAN***
