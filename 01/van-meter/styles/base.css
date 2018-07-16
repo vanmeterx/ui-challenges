@@ -1,0 +1,14 @@
+article, header, nav, footer {
+    border-style:solid;
+    border-width: 0.5px;
+    border-color: rgb(99, 99, 99);
+    box-sizing: border-box;
+    background-color: rgb(216, 216, 216);
+    position: static;
+    }
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: .5em;
+    color: rgb(99, 99, 99);
+    text-align: center;
+}
