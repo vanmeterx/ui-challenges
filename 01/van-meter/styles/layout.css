@@ -1,0 +1,250 @@
+
+.a {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    }
+
+.a p::before {
+    content: "480 "    
+}
+.a p::after {
+    content: " 75"    
+}
+
+.b {
+    width: 33.3%;
+    height: 150px;
+    line-height: 150px;
+    clear:left;
+
+}
+
+.b p::before {
+    content: "480 "    
+}
+.b p::after {
+    content: " 150"    
+}
+
+.c {
+    width: 25%;
+    height: 125px;
+    line-height: 125px;
+}
+
+.c p::before {
+    content: "480 ";
+}
+.c p::after {
+    content: " 125";
+}
+
+.d {
+    float: right;
+    width: 25%;
+    height: 125px;
+    line-height: 125px;
+}
+
+.d p::before {
+    content: "480 ";
+}
+.d p::after {
+    content: " 125";
+}
+
+.e {
+    float: left;
+    line-height: 250px;
+    width: 25%;
+    height: 250px;
+}
+
+.e p::before {
+    content: "240 "    
+}
+.e p::after {
+    content: " 250"    
+}
+
+
+.f {
+    float: right;
+    line-height: 250px;
+    width: 25%;
+    height: 250px;
+}
+
+
+.f p::before {
+    content: "240 "    
+}
+.f p::after {
+    content: " 250"    
+}
+
+.g {
+    float: left;
+    line-height: 250px;
+    width: 50%;
+    height: 250px;
+}
+
+
+.g p::before {
+    content: "240 "    
+}
+.g p::after {
+    content: " 250"    
+}
+
+.h {
+    float: right;
+    line-height: 250px;
+    width: 50%;
+    height: 250px;
+}
+
+.h p::before {
+    content: "240 "    
+}
+.h p::after {
+    content: " 250"    
+}
+
+
+.i {
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+}
+
+
+.i p::before {
+    content: "480 "    
+}
+.i p::after {
+    content: " 80"    
+}
+
+
+div {
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 481px)  {
+    .a {
+        width: 100%;
+        height: 100px;
+        line-height: 100px;
+        }
+    
+    .a p::before {
+        content: "960 "    
+    }
+    .a p::after {
+        content: " 100"    
+    }
+    
+    .b {
+        width: 200px;
+        height: 600px;
+        line-height: 600px;
+        float: left;
+    }
+    
+    .b p::before {
+        content: "200 "    
+    }
+    .b p::after {
+        content: " 600"    
+    }
+    
+    .c {
+        width: 50%;
+        height: 200px;
+        line-height: 200px;
+    }
+    
+    .c p::before {
+        content: "300 "    
+    }
+    .c p::after {
+        content: " 200"    
+    }
+    
+    .d {
+        width: 50%;
+        height: 200px;
+        line-height: 200px;
+    }
+    
+    .d p::before {
+        content: "380 "    
+    }
+    .d p::after {
+        content: " 200"    
+    }
+    
+    .e {
+        float: left;
+        line-height: 250px;
+        width: 50%;
+        height: 250px;
+    }
+    
+    .e p::before {
+        content: "190 "    
+    }
+    
+    
+    .f {
+        float: right;
+        line-height: 250px;
+        width: 50%;
+        height: 250px;
+    }
+    
+    
+    .f p::before {
+        content: "190 "    
+    }
+
+    .g {
+        line-height: 250px;
+        width: 50%;
+        height: 250px;
+    }
+    
+    
+    .g p::before {
+        content: "190 "    
+    }
+
+    .h {
+        line-height: 250px;
+        width: 50%;
+        height: 250px;
+    }
+    
+    .h p::before {
+        content: "190 " ;   
+
+    }
+
+    .i {
+        width: 100%;
+        height: 150px;
+        line-height: 150px;
+    }
+    
+    
+    .i p::before {
+        content: "760 ";
+    }
+
+    .i p::after {
+        content: " 150";
+    }
+}
